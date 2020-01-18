@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    text-align: center;  /* this value into container will make anything inside the container centered*/
+    font-family: 'Merriweather', serif;
+    color: #40514E
+}
+
+.top-container{
+    background-color: #effffb;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+h1{
+    margin: 50px auto 0 auto;  /*margin right and left set auto to center the element horizontally*/
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    font-size: 5.625rem;  /* 100% = 16px = 1em (rem) in font size*/
+}
+
+h2{
+    color: #66BFBF;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p{
+    line-height: 2
+}
+
+hr{
+    width: 5%;
+    border-style: dotted;
+    border-top: none;
+    border-width: .5em;
+    border-color: rgba(39, 39, 39, 0.11);
+    margin: 100px auto
+}
+
+
+
+#developer{  /*this is the h2 which contain (frontend developer)*/
+    font-weight: normal;
+}
+
+
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+}
+
+.palm{
+    position: absolute;
+    bottom: 0
+}
+
+.first-palm{
+    left: 200px;
+    
+}
+
+.second-palm{
+    right: 200px;
+    height: 250px;
+}
+
+
+
+
+
+
+/* start t=styling the middle container*/
+
+.middle-container{
+    margin: 100px 0
+}
+
+.middle-container .profile{
+
+}
+
+.middle-container .profile .profile-pic{
+    width: 10%;
+    border: 2px solid #cef3df;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.middle-container .profile .profile-discription{
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    padding: 30px 0
+}
+
+.skill-row p{    /* clear is a value connected with float so, we can here give it (clear : left ) so it will clear any wrapping element on left of the first paragraph and the same in the second paragraph in opposite direction*/ 
+}
+
+
+.skill-row .code-img{
+    width: 25%;
+    float: left;   /* we made it here (float : left) so that the image float to the left side and the paragraph text will wrap around it*/
+    margin-right: 30px;
+}
+
+
+.skill-row .graph-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.contact-me .contact-message{
+    width: 20%;
+    margin: 40px auto 60px;  /* 40px for top / auto for left & right / 60px for bottom*/
+}
+
+
+.contact-me .btn{
+    background-color:#66bfbf;
+	-webkit-border-radius:8px;
+	-moz-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+.btn:hover {
+	background-color:#91e0e3;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/* start the bottom container here*/
+
+.bottom-container{
+   background-color: #66BFBF;
+    padding: 50px 0 20px; 
+}
+
+
+
+.bottom-container .footer-link{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+
+
+.bottom-container .footer-link:hover{
+    color: #e0f4f5
+}
+
+.bottom-container .copyright{
+    color: #e6e6e6;
+    font-size: .75rem;
+    padding: 20px 0
+}
